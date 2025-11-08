@@ -1,0 +1,4 @@
+## Overview
+
+This repository contains statistical analysis to develop the “Climate payouts to smallholder farmers” notebook for African Adaptation Atlas. The analysis builds on [work]( https://github.com/Better-Planet-Laboratory/africafarmprojections) from Zia Mehrabi that developed African farm size distributions from 2000-2050 as well as [analysis]( https://github.com/Better-Planet-Laboratory/lossdamage) from Zia Mehrabi, Julie Fortin and Navin Ramankutty that harmonizes household survey data to examine the relationship between farm size and climate shock impacts.
+For the notebook, we have developed methods to estimate the number of farms experiencing losses due to extreme events as well as the percentage of revenue lost, while also considering the relationship of farm size and type of climate shock. 
