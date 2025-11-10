@@ -31,11 +31,11 @@ The number of farms likely to experience loss was calculated using the loss and 
 
 |File | Description|
 |----  | -----------|
-|1. Combine_spei | Combine monthly SPEI data for historical, ssp245 and ssp585 for all GCMs, get ensemble averages.|
-|2. Extract_spei | Extract growing season min/max SPEI from GCMs and ensemble average.|
-|3. Compare_spei_emdat | Get extreme SPEI values for each admin 1 unit, check historical ensemble averages against EMDAT to estimate coverage.|
-|4. Join_spei_predict | Join SPEI values to shapefiles, predict loss and lost revenue from loss and damage functions.|
-|5. Compute_loss_rev | Estimate loss and lost proportion of revenue by farm size for extreme events, calculate cumulative sums and yearly averages.|
+|1_combine_spei | Combine monthly SPEI data for historical, ssp245 and ssp585 for all GCMs, get ensemble averages.|
+|2_extract_spei | Extract growing season min/max SPEI from GCMs and ensemble average.|
+|3_compare_spei_emdat | Get extreme SPEI values for each admin 1 unit, check historical ensemble averages against EMDAT to estimate coverage.|
+|4_join_spei_predict | Join SPEI values to shapefiles, predict loss and lost revenue from loss and damage functions.|
+|5_compute_loss_rev | Estimate loss and lost proportion of revenue by farm size for extreme events, calculate cumulative sums and yearly averages.|
 
 ## Outputs
 The outputs of this work include a R markdown notebook “Climate payouts to smallholder farmers” as well as the supporting files needed, which can be found here.
