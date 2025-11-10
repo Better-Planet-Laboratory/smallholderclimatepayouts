@@ -26,18 +26,22 @@ To estimate loss and proportion of lost revenue from farms, both currently and i
 The number of estimated events was compared for both the GCMs and ensemble average to the EM-DAT disaster database to confirm that the derived seasonal SPEI values were capturing at least some major historical flood and droughts in Africa.
 The total number of extreme events (SPEI>1 or SPEI<-1) were computed for each year in each admin 1 unit for the historical, SSP245 and SSP585 scenarios, both for ensemble averages and all GCMs. 
 The number of farms likely to experience loss was calculated using the loss and damage functions to estimate the % of loss by farm size class when that location had an extreme event. Similarly, proportion of lost revenue was calculated using the loss and damage function and the previously estimated farms likely experiencing a loss. These resulting insights are both a yearly average and cumulative sum of the either the number of farms experiencing a loss or the proportion of their revenue that is lost for each farm size class and admin 1 unit in Africa under either a historical, SSP245 or SSP585 scenario.
+
 Table 2: Scripts
-File | Description
-----  | -----------
-1. Combine_spei | Combine monthly SPEI data for historical, ssp245 and ssp585 for all GCMs, get ensemble averages
-2. Extract_spei | Extract growing season min/max SPEI from GCMs and ensemble average
-3. Compare_spei_emdat | Get extreme SPEI values for each admin 1 unit, check historical ensemble averages against EMDAT to estimate coverage
-4. Join_spei_predict | Join SPEI values to shapefiles, predict loss and lost revenue from loss and damage functions
-5. Compute_loss_rev | Estimate loss and lost proportion of revenue by farm size for extreme events, calculate cumulative sums and yearly averages
+
+|File | Description|
+|----  | -----------|
+|1. Combine_spei | Combine monthly SPEI data for historical, ssp245 and ssp585 for all GCMs, get ensemble averages.|
+|2. Extract_spei | Extract growing season min/max SPEI from GCMs and ensemble average.|
+|3. Compare_spei_emdat | Get extreme SPEI values for each admin 1 unit, check historical ensemble averages against EMDAT to estimate coverage.|
+|4. Join_spei_predict | Join SPEI values to shapefiles, predict loss and lost revenue from loss and damage functions.|
+|5. Compute_loss_rev | Estimate loss and lost proportion of revenue by farm size for extreme events, calculate cumulative sums and yearly averages.|
 
 ## Outputs
 The outputs of this work include a R markdown notebook “Climate payouts to smallholder farmers” as well as the supporting files needed, which can be found here.
+
 This work will soon be featured as part of the African Adaptation Atlas, on which more detail can be found [here](https://adaptationatlas.cgiar.org). We will update once the notebook is live on that platform.
+
 An [accompanying article on Medium]( https://medium.com/@ziamehrabi/b4fe5465a8a9) also delves further into the insights from this analysis.
 
 
