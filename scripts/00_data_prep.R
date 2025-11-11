@@ -10,7 +10,7 @@ library(sf)
 
 
 ## Part 1: Create abridged shapefiles from farm projections analysis (https://github.com/Better-Planet-Laboratory/africafarmprojections)
-frm <- st_read("spei_analysis/farmprojections/output/fsfix_corrected_2000_2060.shp")
+frm <- st_read("inputdata/fsfix_corrected_2000_2060.shp")
 fs_shp <- frm
 fs_shp <- fs_shp %>% select(GID_0, NAME_0, geometry) %>% unique()
 
