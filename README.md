@@ -31,11 +31,13 @@ We estimate the number of extreme climate events and their impacts on African fa
 
 |File | Description|
 |----  | -----------|
-|1_combine_spei | Combine monthly SPEI data for historical, ssp245 and ssp585 for all GCMs, get ensemble averages.|
-|2_extract_spei | Extract growing season min/max SPEI from GCMs and ensemble average.|
-|3_compare_spei_emdat | Get extreme SPEI values for each admin 1 unit, check historical ensemble averages against EMDAT to estimate coverage.|
-|4_join_spei_predict | Join SPEI values to shapefiles, predict loss and lost revenue from loss and damage functions.|
-|5_compute_loss_rev | Estimate loss and lost proportion of revenue by farm size for extreme events, calculate cumulative sums and yearly averages.|
+|00_data_prep | Prepare data from [farm projections](https://github.com/Better-Planet-Laboratory/africafarmprojections) and [farm loss](https://github.com/Better-Planet-Laboratory/farm-loss-farmsize) repositories. |
+|01_combine_spei | Combine monthly SPEI data for historical, ssp245 and ssp585 for all GCMs, get ensemble averages.|
+|02_extract_spei | Extract growing season min/max SPEI from GCMs and ensemble average.|
+|03_compare_spei_emdat | Get extreme SPEI values for each admin 1 unit, check historical ensemble averages against EMDAT to estimate coverage.|
+|04_join_spei_predict | Join SPEI values to shapefiles, predict loss and lost revenue from loss and damage functions.|
+|05_compute_loss_rev | Estimate loss and lost proportion of revenue by farm size for extreme events, calculate cumulative sums and yearly averages.|
+|06_makedata_fig1_fig3 | Create additional files needed for figure 1 and figure 3 of the notebook.|
 
 ## Outputs
 The outputs of this work include a [R markdown notebook “Climate payouts to smallholder farmers”](notebook/notebook_lossanddamage_spei.Rmd) as well as the supporting files needed, which can be found [here](https://o365coloradoedu-my.sharepoint.com/:f:/r/personal/zime6804_colorado_edu/Documents/BetterPlanetLab/Projects/Loss_and_damage/notebook_files?csf=1&web=1&e=OFWw5i).
