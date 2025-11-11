@@ -1,6 +1,6 @@
 # Climate payouts to smallholder farmers
 ## Overview
-This repository contains statistical analysis to develop the “Climate payouts to smallholder farmers” notebook for African Adaptation Atlas. The analysis builds on [work]( https://github.com/Better-Planet-Laboratory/africafarmprojections) from Zia Mehrabi that developed African farm size distributions from 2000-2050 as well as [analysis]( https://github.com/Better-Planet-Laboratory/lossdamage) from Zia Mehrabi, Julie Fortin and Navin Ramankutty that harmonizes household survey data to examine the relationship between farm size and climate shock impacts.
+This repository contains statistical analysis to develop the “Climate payouts to smallholder farmers” notebook for the African Adaptation Atlas. The analysis builds on [work]( https://github.com/Better-Planet-Laboratory/africafarmprojections) from Zia Mehrabi that developed African farm size distributions from 2000-2050 as well as [analysis]( https://github.com/Better-Planet-Laboratory/lossdamage) from Zia Mehrabi, Julie Fortin and Navin Ramankutty that harmonizes household survey data to examine the relationship between farm size and climate shock impacts.
 For the notebook, we have developed methods to estimate the number of farms experiencing losses due to extreme events as well as the percentage of revenue lost, while also considering the relationship of farm size and type of climate shock.
 
 The key insights derived from this analysis are:
@@ -45,5 +45,5 @@ An [accompanying article on Medium]( https://medium.com/@ziamehrabi/b4fe5465a8a9
 ![](test3.gif)
 
 ## Citation
-Mehrabi, Z., and Braich., B. Climate payouts for smallholder farmers. Better Planet Laboratory.
+Mehrabi, Z., and Braich., B. Climate payouts. Better Planet Laboratory.
 
