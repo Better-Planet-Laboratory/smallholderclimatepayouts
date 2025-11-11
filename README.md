@@ -40,7 +40,7 @@ We estimate the number of extreme climate events and their impacts on African fa
 |06_makedata_fig1_fig3 | Create additional files needed for figure 1 and figure 3 of the notebook.|
 
 ## Outputs
-The outputs of this work include a [R markdown notebook “Climate payouts to smallholder farmers”](notebook/notebook_lossanddamage_spei.Rmd) as well as the supporting files needed, which can be found [here](https://doi.org/10.5281/zenodo.17584804).
+The outputs of this work include a [R markdown notebook “Climate payouts to smallholder farmers”](notebook/notebook_climatepayouts_spei.Rmd) as well as the supporting files needed, which can be found [here](https://doi.org/10.5281/zenodo.17584804).
 
 This work will soon be featured as part of the African Adaptation Atlas, on which more detail can be found [here](https://adaptationatlas.cgiar.org). We will update once the notebook is live on that platform.
 
