@@ -45,5 +45,5 @@ An [accompanying article on Medium]( https://medium.com/@ziamehrabi/b4fe5465a8a9
 ![](test3.gif)
 
 ## Citation
-Mehrabi, Z., and Braich., B. Climate payouts. Better Planet Laboratory.
+Mehrabi, Z., and Braich., B. Climate payouts. Better Planet Laboratory. Access: https://github.com/Better-Planet-Laboratory/climatepayouts/
 
