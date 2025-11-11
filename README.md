@@ -58,3 +58,7 @@ The general citation prior to DOI assignment was:
 ```
 Mehrabi, Z., and Braich., B. 2025. Climate payouts. Better Planet Laboratory. 
 ```
+
+## Acknowledgements
+
+This work was supported by our ongoing partnership with the [CGIAR](https://www.cgiar.org/), and an interactive version will be distributed through the [CGIAR’s Africa Agriculture Adaptation Atlas](https://adaptationatlas.cgiar.org) in coming months.
